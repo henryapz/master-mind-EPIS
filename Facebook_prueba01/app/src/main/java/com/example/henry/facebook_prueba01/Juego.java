@@ -26,7 +26,7 @@ public class Juego extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.id_title);
         final Button jugar = (Button)findViewById(R.id.but_jugar);
         Button instrucciones = (Button)findViewById(R.id.but_inst);
-        Button opciones = (Button)findViewById(R.id.but_op);
+ 
 
         jugar.setOnClickListener(new View.OnClickListener() {
             @Override
