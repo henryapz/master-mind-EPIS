@@ -1,4 +1,4 @@
 # master-mind-EPIS
-First Android app \n
--Aranibar Tila, Karla \n
+First Android app
+-Aranibar Tila, Karla y 
 -Aymara Apaza, Henry
