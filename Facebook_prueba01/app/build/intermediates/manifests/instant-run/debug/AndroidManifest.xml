@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.henry.facebook_prueba01"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        name="com.example.henry.facebook_prueba01.Facebook_prueba01App"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ini"
+        android:label="Master Mind"
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme" >
+        <activity android:name="com.example.henry.facebook_prueba01.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/com_facebook_activity_theme" />
+        ;
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name="com.example.henry.facebook_prueba01.Login_FB" />
+        <activity android:name="com.example.henry.facebook_prueba01.Registro" />
+        <activity android:name="com.example.henry.facebook_prueba01.Juego" />
+        <activity android:name="com.example.henry.facebook_prueba01.Ranking" />
+        <activity android:name="com.example.henry.facebook_prueba01.MenteMaestra" />
+
+        <service
+            android:name="com.example.henry.facebook_prueba01.BackgroundService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+    </application>
+
+</manifest>

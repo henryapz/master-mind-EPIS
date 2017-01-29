@@ -1,0 +1,7 @@
+#Sun Jan 29 12:47:02 COT 2017
+base.0=C\:\\Users\\Henry\\AndroidStudioProjects\\Facebook_prueba01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2fda00163bdcad92da80913e1c469ae2d5b0f667
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Henry\\AndroidStudioProjects\\Facebook_prueba01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_36a32304459ee8751aae20a1e63f8b1684cfa729\\classes.dex
+base.1=C\:\\Users\\Henry\\AndroidStudioProjects\\Facebook_prueba01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_36a32304459ee8751aae20a1e63f8b1684cfa729
+file.0=C\:\\Users\\Henry\\AndroidStudioProjects\\Facebook_prueba01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2fda00163bdcad92da80913e1c469ae2d5b0f667\\classes.dex
