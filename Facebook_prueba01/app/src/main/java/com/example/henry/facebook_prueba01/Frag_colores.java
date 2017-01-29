@@ -62,6 +62,7 @@ public class Frag_colores extends Fragment {
     int hits;
     int pseudoHits;
     int[] esferas = new int[4];
+    boolean game = true;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -122,7 +123,15 @@ public class Frag_colores extends Fragment {
                             starEsferas();
                             fillHitsAndPsuHit();
                         }
-
+                        if(numBut == 28){
+                            if (hits != 4) {
+                                Toast.makeText(getActivity(), "GAME OVER. PERDISTE!!!", Toast.LENGTH_LONG).show();
+                                puntaje = 100;
+                                savePuntaje();
+                            }
+                            finish();
+                            deft = true;
+                        }
 
                         numBut++;
                         deft = true;
@@ -133,10 +142,12 @@ public class Frag_colores extends Fragment {
                             Toast.makeText(getActivity(), "GAME OVER. PERDISTE!!!", Toast.LENGTH_LONG).show();
                             puntaje = 100;
                             savePuntaje();
-                            finish();
                         }
+                        finish();
+                        deft = true;
                     }
                 }
+
             }
         });
 
